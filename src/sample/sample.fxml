@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<GridPane alignment="center" hgap="10" prefHeight="510.0" prefWidth="646.0" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="500.0" prefWidth="637.0">
+         <children>
+            <Label layoutX="14.0" layoutY="6.0" text="Serwer:" AnchorPane.leftAnchor="8.0" AnchorPane.topAnchor="8.0" />
+            <TextField fx:id="adresSerwera" layoutX="65.0" layoutY="2.0" promptText="adres serwera" text="teatr-fenix.nazwa.pl" AnchorPane.leftAnchor="65.0" AnchorPane.topAnchor="5.0" />
+            <TextField fx:id="nazwaBazy" layoutX="226.0" layoutY="5.0" prefHeight="25.0" prefWidth="128.0" promptText="nazwa bazy" text="teatr-fenix_test" AnchorPane.topAnchor="5.0" />
+            <PasswordField fx:id="hasloUzytkownika" layoutX="500.0" layoutY="5.0" prefHeight="25.0" prefWidth="77.0" promptText="hasło" text="Mati6969" AnchorPane.topAnchor="5.0" />
+            <Button fx:id="zaloguj" layoutX="585.0" layoutY="4.0" mnemonicParsing="false" onAction="#zaloguj" text="zaloguj" AnchorPane.topAnchor="4.0" />
+            <Button fx:id="dodajTabelke" layoutX="8.0" layoutY="470.0" mnemonicParsing="false" onAction="#dodajTabelke" text="Dodaj tabelkę" AnchorPane.bottomAnchor="8.0" AnchorPane.leftAnchor="8.0" />
+            <Button fx:id="usunTabelke" layoutX="108.0" layoutY="467.0" mnemonicParsing="false" onAction="#usunTabelke" prefHeight="25.0" prefWidth="85.0" text="Usuń tabelkę" AnchorPane.bottomAnchor="8.0" AnchorPane.leftAnchor="108.0" />
+            <Button fx:id="dodajKrotke" layoutX="205.0" layoutY="470.0" mnemonicParsing="false" onAction="#dodajKrotke" text="Dodaj krotkę" AnchorPane.bottomAnchor="8.0" AnchorPane.leftAnchor="205.0" />
+            <Button fx:id="wyloguj" disable="true" layoutX="533.0" layoutY="173.0" mnemonicParsing="false" onAction="#wyloguj" text="wyloguj" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="5.0" />
+            <TableView fx:id="tabelka" layoutX="320.0" layoutY="50.0" prefHeight="406.0" prefWidth="581.0" AnchorPane.bottomAnchor="44.0" AnchorPane.leftAnchor="320.0" AnchorPane.rightAnchor="99.0" AnchorPane.topAnchor="50.0" />
+            <TableView fx:id="daneZtabelek" layoutX="26.0" layoutY="50.0" prefHeight="406.0" prefWidth="277.0" AnchorPane.bottomAnchor="44.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="323.0" AnchorPane.topAnchor="50.0" />
+            <TextField fx:id="loginUzytkownika" layoutX="367.0" layoutY="2.0" prefHeight="25.0" prefWidth="128.0" promptText="login" text="teatr-fenix_Mati" AnchorPane.leftAnchor="367.0" AnchorPane.topAnchor="5.0" />
+            <Button fx:id="usunKrotke" layoutX="305.0" layoutY="467.0" mnemonicParsing="false" onAction="#usunKrotke" text="Usuń krotkę" AnchorPane.bottomAnchor="8.0" AnchorPane.leftAnchor="305.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
