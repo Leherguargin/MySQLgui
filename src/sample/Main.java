@@ -12,7 +12,7 @@ import java.sql.SQLException;
 
 
 public class Main extends Application {
-
+    //nowy kod xD
     Stage window;
     @Override
     public void start(Stage primaryStage) throws Exception{
